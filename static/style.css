@@ -79,3 +79,45 @@ p {
     50% { opacity: 0; }
     100% { opacity: 1; }
 }
+
+.translation-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.input-area, .output-area {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea, .translation-output {
+    min-height: 200px;
+}
+
+.translation-output {
+    background-color: #0d0d0d;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #00ff41;
+    white-space: pre-wrap;
+}
+
+#matrix-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.detected {
+    text-align: center;
+    margin-top: 10px;
+    color: #00ff41;
+    font-size: 0.9rem;
+    font-style: italic;
+}
