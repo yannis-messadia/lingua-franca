@@ -35,7 +35,7 @@ This project was developed as part of a programming course at [La Plateforme_], 
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### Ready to translate in the Matrix verse ?
 
 ```bash
 git clone https://github.com/your-username/lingua-franca.git
